@@ -13,6 +13,7 @@ require "rake/extensiontask"
 
 Hoe.plugin :doofus, :git, :gemspec, :isolate
 
+Hoe.plugin :gemspec
 $hoe = Hoe.spec 'psych' do
   developer 'Aaron Patterson', 'aaron@tenderlovemaking.com'
 
